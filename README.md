@@ -1,2 +1,2 @@
 # CS-413
-Predicting photographers retouching with Depp learning
+Predicting photographers retouching with Deep learning

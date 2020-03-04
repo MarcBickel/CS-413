@@ -1,6 +1,8 @@
 # CS-413 Project
 ## Predicting photographers retouching with Deep learning
 
+In this project you will use a dataset of professional photographers' image manipulations from [2] and we ask you to build a machine learning system that learns experts' edits from the dataset. This is useful when automatically generating similar photographic manipulations based on the examples in a set of manipulated images. This is a well studied research area where you can find both traditional methods, e.g., [2], as well as recent deep learning based methods, e.g., [8].
+
 ### Unchronological timeline
 #### 06.03.2020 Meeting
 We have been looking for ideas to start the project.

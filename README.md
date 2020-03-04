@@ -3,7 +3,7 @@
 
 In this project you will use a dataset of professional photographers' image manipulations from [2] and we ask you to build a machine learning system that learns experts' edits from the dataset. This is useful when automatically generating similar photographic manipulations based on the examples in a set of manipulated images. This is a well studied research area where you can find both traditional methods, e.g., [2], as well as recent deep learning based methods, e.g., [8].
 
-[2]  V. Bychkovsky, S. Paris, E. Chan, and F. Durand.  Learning photographic global tonal adjustment with a database of input / output image pairs. In CVPR, 2011.
+[2]  V. Bychkovsky, S. Paris, E. Chan, and F. Durand.  Learning photographic global tonal adjustment with a database of input / output image pairs. In CVPR, 2011.  
 [8] Y. Hu, H. He, C. Xu, B. Wang, and S. Lin.  Exposure:  A white-box photo post-processing framework.  InSIGGRAPH, 2018.
 
 ### Unchronological timeline

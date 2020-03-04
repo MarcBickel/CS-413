@@ -13,7 +13,7 @@ After looking for GAN possibilities we plan on pursuing this idea and found mult
 We plan on going for an like Pix2Pix Gan because of its paired implementation for images, and maybe use ideas from the CycleGan also.
 
 ##### Questions 
-- 
+-- 
 
 #### 25.02.2020 Meeting
 First meeting and basic explanation with the TAs.

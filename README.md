@@ -7,6 +7,8 @@ In this project you will use a dataset of professional photographers' image mani
 [8] Y. Hu, H. He, C. Xu, B. Wang, and S. Lin.  Exposure:  A white-box photo post-processing framework.  InSIGGRAPH, 2018.
 
 ### Unchronological timeline
+
+
 #### 06.03.2020 Meeting
 We have been looking for ideas to start the project.
 Either we base our model simply on the raw input images to edited output, or we base the model on some kind of GAN.
@@ -19,6 +21,17 @@ We plan on going for an like Pix2Pix Gan because of its paired implementation fo
 
 ##### Questions 
 -- 
+
+##### Feedback
+1. Implement the baseline methods
+2. Find out if there's a pixel correspondance between the RAW images and the edited outputs  
+If not, either we can "modify" edited images to create the paired datasets or we cannot use any paired GAN network
+3. First plan is pix2pix if databases are paired
+4. Else we will work on cycleGAN
+
+- Read about StartGAN
+- Even if paired cycleGAN could yield good results, though it requires more training
+- Maybe try two approaches and compare them at the end
 
 #### 25.02.2020 Meeting
 First meeting and basic explanation with the TAs.

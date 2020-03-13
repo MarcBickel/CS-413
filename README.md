@@ -7,6 +7,17 @@ In this project you will use a dataset of professional photographers' image mani
 [8] Y. Hu, H. He, C. Xu, B. Wang, and S. Lin.  Exposure:  A white-box photo post-processing framework.  InSIGGRAPH, 2018.
 
 ### Unchronological timeline
+#### 13.03.2020
+CoronaVirus isolated us so we didn't have a personnal meeting. Instead we shared our progress by messages and got feedback.
+This week we have looked at multiples things linked to our project.
+1. We found a library called RawPy that allows us to work on the raw images that are in the database we are working on.
+2. As suggested last week, we compared raw images dimensions to the edited one as output. Sadly they do not seem to match.
+3. We are trying to implement as baseline methods the one found in the paper [2]
+4. We read about StarGAN as suggested and started a simple implementation to see its feasibility.
+
+#### Questions
+1. As images do not seem to be paired, could it be possible to work on them after some rescaling ?
+2. What exactly are the baseline methods and the features we're supposed to work on ?
 
 
 #### 06.03.2020 Meeting

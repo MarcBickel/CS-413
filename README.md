@@ -7,6 +7,12 @@ In this project you will use a dataset of professional photographers' image mani
 [8] Y. Hu, H. He, C. Xu, B. Wang, and S. Lin.  Exposure:  A white-box photo post-processing framework.  InSIGGRAPH, 2018.
 
 ### Unchronological timeline
+#### 20.03.2020
+This week we worked on the baseline methods where we implemented our first Jupyter notebook. Rescaling is easily done with methods from OpenCV library.  
+Then after reading the RAW image and one of the expert modification, we computed their CIE Lab color instead of the standard RGB one and we could compare both luminance. We are also working a bit on an idea of a starGAN.
+
+#### Questions
+
 #### 13.03.2020
 CoronaVirus isolated us so we didn't have a personnal meeting. Instead we shared our progress by messages and got feedback.
 This week we have looked at multiples things linked to our project.
@@ -19,6 +25,9 @@ This week we have looked at multiples things linked to our project.
 1. As images do not seem to be paired, could it be possible to work on them after some rescaling ?
 2. What exactly are the baseline methods and the features we're supposed to work on ?
 
+#### Feedback
+1. Rescaling by interpolation first then later on work on patches of the image instead of the smaller one
+2. Mapping luminance from input to transfered one
 
 #### 06.03.2020 Meeting
 We have been looking for ideas to start the project.

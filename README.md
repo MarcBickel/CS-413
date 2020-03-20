@@ -9,7 +9,7 @@ In this project you will use a dataset of professional photographers' image mani
 ### Unchronological timeline
 #### 20.03.2020
 This week we worked on the baseline methods where we implemented our first Jupyter notebook. Rescaling is easily done with methods from OpenCV library.  
-Then after reading the RAW image and one of the expert modification, we computed their CIE Lab color instead of the standard RGB one and we could compare both luminance. We are also working a bit on an idea of a starGAN.
+Then after reading the RAW image and one of the expert modification, we computed their CIE Lab color instead of the standard RGB one and we could compare both luminance. We are also working a bit on an idea of a starGAN and implemented it. Works only with provided dataset at the moment, but we are working on changing that. Also saw starGAN v2, which is super recent and has impressive results.
 
 #### Questions
 

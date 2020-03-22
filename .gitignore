@@ -3,3 +3,4 @@ dataset/
 runs/
 .DS_Store
 __pycache__/
+.ipynb_checkpoints

@@ -1,0 +1,6 @@
+[submodule "cyclegan-pix2pix"]
+	path = cyclegan-pix2pix
+	url = https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git
+[submodule "stargan"]
+	path = stargan
+	url = https://github.com/yunjey/stargan.git

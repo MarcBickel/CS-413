@@ -294,7 +294,7 @@ def test_plot2(raw_path, artist):
     
     final[:, :, 0] = new_lum/100*255 + new_lum.min()
     ret = cv2.cvtColor(final, cv2.COLOR_LAB2RGB)
-    name = dir_raw+raw_path[0:5]+".png"
+    name = "final_base_img"+raw_path
     plt.imsave(name, ret)
 
 

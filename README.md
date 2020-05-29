@@ -61,6 +61,7 @@ python <cycleGAN_folder>/train.py --dataroot <combined_image_folder> --name pix2
 To test the models :
 ```
 python <cycleGAN_folder>/test.py --dataroot <combined_image_folder> --name pix2pix{A, B, C, D} --model pix2pix --num_test 1000 --gpu 0,1 --preprocess {scale_width, resize}_and_crop
+```
 ## StarGAN
 
 ## FID

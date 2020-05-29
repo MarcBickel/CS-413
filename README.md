@@ -1,5 +1,7 @@
 # Multiple Generative Adversarial Networks Analysis for Predicting Photographers’ Retouching
 The final paper is named final_report.pdf and is included in the git repo.
+
+
 To be able to run CycleGAN, Pix2Pix and StarGAN, use:
 *git submodule update --init --recursive*
 

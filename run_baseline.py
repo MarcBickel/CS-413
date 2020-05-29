@@ -261,7 +261,7 @@ def test_plot(raw_path, artist_path, artist):
 
     
 def test_plot2(raw_path, artist):
-    path = "raw_for_baseline/"+raw_path
+    path = dir_raw+raw_path
     raw = cv2.cvtColor(cv2.imread(path, cv2.IMREAD_COLOR), cv2.COLOR_BGR2LAB)
 
     #changer les raw pour les tests
@@ -294,7 +294,7 @@ def test_plot2(raw_path, artist):
     
     final[:, :, 0] = new_lum/100*255 + new_lum.min()
     ret = cv2.cvtColor(final, cv2.COLOR_LAB2RGB)
-    name = "final_base_img_d/"+raw_path[0:5]+".png"
+    name = dir_raw+raw_path[0:5]+".png"
     plt.imsave(name, ret)
 
 

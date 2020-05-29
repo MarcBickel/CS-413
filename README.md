@@ -6,7 +6,7 @@ To be able to run CycleGAN, Pix2Pix and StarGAN, use:
 *git submodule update --init --recursive*
 
 ## Dataset
-The dataset can be found [here](https://data.csail.mit.edu/graphics/fivek/) with all explanation related to it :
+The dataset can be found [here](https://data.csail.mit.edu/graphics/fivek/) with all explanation related to it.
 
 
 ## Pre-processing

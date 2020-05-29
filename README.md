@@ -61,7 +61,7 @@ To create dataset to use with Pix2Pix model :
 python <cycleGAN_folder>/datasets/combine_A_and_B.py --fold_A <images>/A/ --fold_B <images>/B/ --fold_AB <combined_image_folder>
 ```
 
-to train the models :
+to train the models described in our paper :
 
 **For pix2pixA**
 ```

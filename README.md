@@ -18,7 +18,7 @@ To resize images, use:
 
 * For Pix2Pix
 	```
-	python ...
+	python resize_pix2pix.py --origin <images source folder> --destination <resized images destination folder> --extention <extention of the source images> --targetSize <size the longest edge should be>
 	```
 
 ## Baseline method
@@ -90,7 +90,7 @@ python <cycleGAN_folder>/test.py --dataroot <combined_image_folder> --name pix2p
 
 ### Dependencies
 
-Dependencies can be found [here](https://github.com/yunjey/StarGAN)
+Dependencies can be found [here](https://github.com/yunjey/StarGAN#dependencies)
 
 ### Prepare the Dataset
 

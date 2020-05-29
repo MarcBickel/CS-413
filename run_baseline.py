@@ -299,7 +299,7 @@ def test_plot2(raw_path, artist):
 
 
 #running + saving of test
-for subdir, dirs, files in os.walk("raw_for_baseline/"):
+for subdir, dirs, files in os.walk(dir_raw):
     for file in files:
         print(file)
         test_plot2(file, "D")

@@ -22,7 +22,24 @@ To resize images, use:
 	```
 
 ## Baseline method
-
+To use the baseline methods model, the file ```run_baseline.py``` needs to be opened and adapted. At the lines starting at 82 :
+```
+dir_raw = "raw_for_baseline/"
+dir_a = "reducedDataSetPNG500/A/"
+dir_b = "reducedDataSetPNG500/B/"
+dir_c = "reducedDataSetPNG500/C/"
+dir_d = "reducedDataSetPNG500/D/"
+dir_e = "reducedDataSetPNG500/E/"
+```
+Change the ```"raw_for_baseline/"``` part for your folder with the raw images, and all other folders by your artists folders.
+Finally, at the bottom, change the letter "D" by the artist for whom you want results.
+```
+#running + saving of test
+for subdir, dirs, files in os.walk(dir_raw):
+    for file in files:
+        print(file)
+        test_plot2(file, "D")
+```
 
 ## CycleGAN
 CycleGAN works in two phases: first a train phase, and then a test phase. The code and the different options available are best explained directly in the cycleGAN subfolder. 
@@ -45,7 +62,7 @@ To create dataset to use with Pix2Pix model :
 python <cycleGAN_folder>/datasets/combine_A_and_B.py --fold_A <images>/A/ --fold_B <images>/B/ --fold_AB <combined_image_folder>
 ```
 
-to train the models :
+to train the models described in our paper :
 
 **For pix2pixA**
 ```
